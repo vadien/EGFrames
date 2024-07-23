@@ -1,5 +1,7 @@
 # EGFrames
 
+# Due Date: 5th August
+
 ## A mock eShop in React, TypeScript and Firestore
 
 #### MVP TODO:
@@ -21,6 +23,11 @@
     - Product carousel
     - Grid of product cards
   - Product page (per product, using id)
+- Services
+  - Get collection of products
+- Components
+  - Product card
+  - Carousel
 
 #### BONUS TODO:
 
