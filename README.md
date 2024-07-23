@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# EGFrames
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A mock eShop in React, TypeScript and Firestore
 
-Currently, two official plugins are available:
+#### MVP TODO:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Firestore
+  - Initialise Firestore db
+  - Populate Firestore db with data
+    - ID
+    - Picture URL(s)
+    - Name
+    - Price per unit
+    - Description
+    - Variants (different sizes/colours?)
+    - Quantity selector
+    - Add to cart button
+    - Favourited
+- Pages
+  - Splash/home page
+    - Product carousel
+    - Grid of product cards
+  - Product page (per product, using id)
 
-## Expanding the ESLint configuration
+#### BONUS TODO:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Add to cart button on product page
+- Cart page button accessible from any other page
+- Cart page
+  - Shows carted items with quantities
+  - Shows total price of all items (delivery?)
+  - Able to change quantity of cart items
+  - Able to remove from cart
+- React Testing Library - 0/10 tests
 
-- Configure the top-level `parserOptions` property like this:
+## Palette
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Blue: rgb(8, 90, 192)
+- Shadow Blue: rgb(6, 74, 161)
+- Red: rgb(244, 71, 75)
