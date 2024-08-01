@@ -1,0 +1,41 @@
+@import "../../scss/variables.scss";
+
+.Carousel {
+  width: 60%;
+}
+
+.carouselContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.carouselImages {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.arrowBtnLeft,
+.arrowBtnRight {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 1em;
+  transition: background-image 200ms ease-in-out;
+  color: $eb-blue;
+}
+
+.arrowBtnLeft:hover {
+  background-image: linear-gradient(to right, $fade, transparent);
+  color: $eb-blue-hover;
+}
+
+.arrowBtnRight:hover {
+  background-image: linear-gradient(to left, $fade, transparent);
+  color: $eb-blue-hover;
+}
