@@ -1,4 +1,48 @@
+@import "../../scss/variables.scss";
+
 .NavBar {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 25%;
+  background-color: $eb-blue;
+
+  color: white;
+  text-decoration: none;
+}
+
+.EG {
+  font-family: "Pacifico";
+  color: $eb-red;
+}
+
+.Frames {
+  font-family: "Roboto Condensed";
+  font-style: italic;
+}
+
+.logoLink:hover {
+  transform: scale(1.05);
+}
+
+.logoLink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.logoLink:link {
+  color: white;
+  text-decoration: none;
+}
+
+.cartBtn {
+  all: unset;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 500ms background-color ease-in-out;
+}
+
+.cartBtn:hover {
+  background-color: $eb-blue-hover;
 }

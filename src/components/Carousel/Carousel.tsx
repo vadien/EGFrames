@@ -25,18 +25,26 @@ const Carousel = ({ imageArr }: carouselProps) => {
 
   return (
     <div className={styles.Carousel}>
-      <h1>Carousel</h1>
       <div className={styles.carouselContent}>
         <button
-          onClick={showNextImage}
+          onClick={showPrevImage}
           className={styles.arrowBtnLeft}
           style={{ left: 0 }}
         >
           <ArrowCircleLeft size={32} />
         </button>
-        <img src={imageArr[imageState]} className={styles.carouselImages} />
+        <div className={styles.carouselImages}>
+          {imageArr.map((image) => (
+            <img
+              key={image}
+              src={image}
+              className={styles.carouselImages}
+              style={{ translate: `${-100 * imageState}%` }}
+            />
+          ))}
+        </div>
         <button
-          onClick={showPrevImage}
+          onClick={showNextImage}
           className={styles.arrowBtnRight}
           style={{ right: 0 }}
         >

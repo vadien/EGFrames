@@ -10,7 +10,8 @@
   - Populate Firestore db with data
     - Picture URL(s)
 - Pages
-  - Splash/home page
+  - Splash page
+  - Home page
     - Product carousel
     - Grid of product cards
   - Product page (per product, using id)
@@ -18,11 +19,11 @@
   - Get collection of products
 - Components
   - Product card
-  - Carousel
 
 #### BONUS TODO:
 
 - Add to cart button on product page
+- Implement stock/availability to products
 - Cart page button accessible from any other page
 - Cart page
   - Shows carted items with quantities
@@ -44,7 +45,7 @@
 Uses [Phosphoricons](https://phosphoricons.com/)
 
 - Photo by [Toa Heftiba](https://unsplash.com/@heftiba?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/rectangular-gray-wooden-photo-frame-beside-pink-flower-HBL6itmv2Zw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
-- Photo by [Angèle Kamp](https://unsplash.com/@angelekamp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-leafed-beside-white-photo-frame-bDuh4oK_MCU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+--- Photo by [Angèle Kamp](https://unsplash.com/@angelekamp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/green-leafed-beside-white-photo-frame-bDuh4oK_MCU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Photo by [Minh Pham](https://unsplash.com/@minhphamdesign?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-and-brown-wooden-cabinet-Wn1gmozpNZc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Photo by [Vladimir Mokry](https://unsplash.com/@vmokry?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-and-brown-wooden-end-table-near-wall-inside-room-2dTeBxsF-Q0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - Photo by [Kenny Eliason](https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/couch-near-painting-Wp7t4cWN-68?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

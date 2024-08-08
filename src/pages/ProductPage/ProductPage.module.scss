@@ -1,0 +1,22 @@
+@import "../../scss/variables.scss";
+
+.ProductPage {
+  height: 100vh;
+  background-color: $eb-prod-bg;
+}
+
+.productContainer {
+  display: flex;
+  gap: 5%;
+}
+
+.imageContainer {
+  height: 600px;
+  max-width: 50vw;
+}
+
+.productImage {
+  height: 100%;
+  max-width: 50vw;
+  object-fit: cover;
+}

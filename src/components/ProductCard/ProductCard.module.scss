@@ -1,0 +1,27 @@
+@import "../../scss/variables.scss";
+
+.ProductCard {
+  border: 2px solid $border-grey;
+  width: clamp(100px, fit-content, 150px);
+  border-radius: 2px;
+  flex-basis: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.thumbContainer {
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardImage {
+  height: 100%;
+}
+
+.infoContainer {
+  text-wrap: wrap;
+  word-wrap: break-word;
+}
